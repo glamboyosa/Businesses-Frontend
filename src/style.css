@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: "Dosis", "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: 100;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.small-headings {
+  font-size: 100%;
+  text-align: center;
+}
+.wilkomm {
+  text-align: center;
+  padding-top: 9%;
+  color: #fff;
+}
+.button:link,
+.button:visited {
+  width: 40%;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: block;
+  font-weight: 300;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.3s;
+  transition: background-color 0.2s, border 0.2s, color 0.3s;
+}
+.bt {
+  width: 15%;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: block;
+  font-weight: 300;
+  text-decoration: none;
+}
+.button-ful {
+  color: #000;
+  border: 1px solid #dee2e6;
+  background-color: #dee2e6;
+  position: absolute;
+  right: 48%;
+}
+
+.button-full {
+  color: #000;
+  border: 1px solid #e4551c;
+  background-color: #e4551c;
+  position: absolute;
+  right: 48%;
+}
+.button-sign {
+  border: 1px solid #e4551c;
+  background-color: #e4551c;
+  position: absolute;
+  right: 42%;
+  top: 48%;
+}
+
+p {
+  text-align: center;
+}
+.section-big {
+  background-color: rgb(88, 157, 221);
+  width: 100%;
+  height: 100vh;
+}
+.section-login {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 5px 12px;
+  height: auto;
+  font-size: 180%;
+  position: absolute;
+  top: 15%;
+  right: 39%;
+}
+.section-login input {
+  border-radius: 50px;
+}
+.section-home {
+  width: 100%;
+  height: 100vh;
+}
+.error {
+  font-size: 180%;
+  padding-top: 10%;
+}
+/* .xxx {
+  
+} */
+/* .xx {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+} */
+/* .thead {
+  display: table-row-group;
+} */
+.table-grey {
+  background-color: #ecf1f3;
+}
+.login-wrapper {
+  width: 70%;
+  height: 50vh;
+  margin: 0 auto;
+  background: #f8f9fa;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.container {
+  width: 70%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2em;
+  background: #0794d7;
+  padding: 20px 0;
+}
+.form-group {
+  margin: 50px 0;
+}
+.img {
+  float: left;
+}
+.section {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+.sidebar {
+  background: #7386d5;
+  color: #fff;
+}
+.nav {
+  margin-right: 90px;
+}
+.hands {
+  font-size: 90%;
+}
+.bar {
+  width: 100%;
+}
+.charts-div {
+  padding-top: 150px;
+  display: block;
+  margin: 0 auto;
+  font-size: 500%;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* padding-right: 150%; */
+}
+.charts-div i {
+  font-size: 200%;
+}
+.text {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  height: auto;
+}
+.text h2 {
+  font-size: 100%;
+  display: inline;
+}
+.bus {
+  margin-left: 27%;
+}
+.bus h3 {
+  text-align: center;
+}
+/*Media Queries*/
+/*For mobile phones from 0px to 768px*/
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 120%;
+    /* }
+  .app .hands {
+    float: left;
+  } */
+    /* .xxx {
+    overflow: auto;
+    height: inherit;
+    display: block;
+    max-width: 300;
+    margin-left: 20px;
+  } */
+  }
+  .hands {
+    font-size: 100%;
+  }
+  .bt-sign {
+    top: 70%;
+  }
+}
