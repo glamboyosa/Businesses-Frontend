@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-A role based authorisation frontend code with React for a role based fullstack CRUD app + ASP .Net Core 2.2.
+
+A role based authorisation frontend with React.js for a role based fullstack CRUD app + ASP .Net Core 2.2.
 ## Available Scripts
 
 In the project directory, you can run:
